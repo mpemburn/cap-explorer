@@ -1,0 +1,55 @@
+input,
+select,
+button {
+    margin-right: 5px;
+}
+
+#loading {
+    display: none;
+    position: absolute;
+    top: -3px;
+    right: -10rem;
+}
+
+#roles {
+    position: relative;
+    top: -2px;
+    min-height: 34px;
+}
+
+#blog_search,
+#user_search {
+    position: relative;
+}
+
+#blogs,
+#users {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: 99;
+    background-color: #ffffff;
+}
+
+#capabilities,
+#query {
+    margin-top: 1rem;
+}
+
+#cap_table {
+    min-width: 100%;
+}
+
+.top-row {
+    background-color: #dddddd;
+}
+
+#submit,
+#clear {
+    position: absolute;
+    top: -6px;
+}
+#clear {
+    right: -8rem;
+}

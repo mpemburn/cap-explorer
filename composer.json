@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "CapExplorer\\": "src/"
+    }
+  },
+  "require": {
+    "kint-php/kint": "^5.1"
+  }
+}
